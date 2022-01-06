@@ -35,7 +35,7 @@ document.addEventListener("keypress", (event4) => {
 
 // sound when presses w
 document.addEventListener("keypress", (event5) => {
-if (event5.key.toUpperCase() || event5.key.toLowerCase()) {
+if (event5.key == "w".toUpperCase() || event5.key == "w".toLowerCase()) {
         const thisHaha2 = document.getElementById("audio2");
         thisHaha2.volume = 0.1;
         thisHaha2.play();
